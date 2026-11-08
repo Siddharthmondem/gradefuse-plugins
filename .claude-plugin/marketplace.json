@@ -1,0 +1,14 @@
+{
+  "name": "gradefuse-plugins",
+  "description": "Gradefuse for Claude Code: eval runs, release gates and model-switch decisions from your coding agent.",
+  "owner": {
+    "name": "Gradefuse"
+  },
+  "plugins": [
+    {
+      "name": "gradefuse",
+      "source": "./plugins/gradefuse",
+      "description": "Ask whether it's safe to switch models, why an eval item regressed, or whether a change passes the release gate, answered from your Gradefuse project."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gradefuse": {
+      "type": "http",
+      "url": "${GRADEFUSE_BASE_URL:-https://www.gradefuse.com}/api/mcp",
+      "headers": { "Authorization": "Bearer ${GRADEFUSE_API_KEY}" }
+    }
+  }
+}
